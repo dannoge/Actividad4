@@ -1,0 +1,61 @@
+var datos = [3,6,9,2,4,1]
+for dato in datos {
+if (dato < 5){
+print (dato)
+}
+}
+
+
+func suma (a:Int, b:Int) {
+let R = a + b
+print ("El resultado de la suma entre \(a) y el entero \(b) ,nos da como resultado \(R)")
+}
+
+suma (a:1000, b:1000)
+func Potencia (x: Int) {
+let p= pow (5,2)
+print ("La potencia de \(x) es \(P)")
+}
+
+enum Meses {
+case Enero
+case Febrero
+case Marzo 
+case Abril
+case Mayo
+case Junio
+case Julio
+case Agosto
+case Septiembre
+case Octubre
+case Noviembre
+case Diciembre
+}
+var numeroMeses:Meses
+numeroMes = .diciembre
+switch numMes {
+case .Enero:
+print (1)
+case .Febrero:
+print (2)
+case .Marzo:
+print (3)
+case .Abril:
+print (4)
+case .Mayo:
+print (5)
+case .Junio:
+print (6)
+case .Julio:
+print (7)
+case .Agosto:
+print (8)
+case .Septiembre:
+print (9)
+case .Octubre:
+print (10)
+case .Noviembre:
+print (11)
+case .Diciembre:
+print (12)
+}
